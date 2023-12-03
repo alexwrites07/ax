@@ -36,3 +36,22 @@
     transform: rotate(360deg);
   }
 }
+/* src/App.css */
+
+.custom-pagination {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.pagination-item {
+  padding: 0.5rem;
+  margin: 0.2rem;
+  cursor: pointer;
+  border: 1px solid #dee2e6;
+  border-radius: 0.25rem;
+}
+
+.pagination-item.active {
+  background-color: #007bff;
+  color: #fff;
+}
