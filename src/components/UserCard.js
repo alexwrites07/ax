@@ -1,6 +1,6 @@
-// src/components/UserCard.js
+
 import React from 'react';
-import './UserCard.css'; // Import the custom CSS file
+import './UserCard.css'; 
 
 const UserCard = ({ user, isSelected, onToggleTeamMember }) => {
   return (

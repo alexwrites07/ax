@@ -1,4 +1,4 @@
-// src/App.js
+
 import React, { useEffect, useState } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { fetchData } from './actions';
@@ -92,7 +92,7 @@ const App = () => {
   };
   const handleCreateTeam = () => {
     console.log('Team created:', selectedTeamMembers);
-    // Add any additional logic to handle the created team
+   
   };
 
   const renderPaginationItems = () => {
@@ -110,7 +110,7 @@ const App = () => {
         </Pagination.Item>
       );
 
-      // Add a line break after every 25 items
+     
       if (i % 25 === 0) {
         items.push(<br key={`br-${i}`} />);
       }

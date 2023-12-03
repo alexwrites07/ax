@@ -1,25 +1,23 @@
-/* src/components/UserCard.css */
+
 
 .custom-card {
-    height: 35px; /* Set a fixed height for the card */
+    height: 35px; 
   }
   
   .custom-card-image {
-    height: 150px; /* Set a reduced height for the image */
-    object-fit: cover; /* Ensure the image covers the container */
+    height: 150px;
+    object-fit: cover;
   }
   
   .custom-card-title {
-    font-size: 1.5rem; /* Set a larger font size for the title */
-    margin-bottom: 10px; /* Add some bottom margin */
-  }
+    font-size: 1.5rem; 
+    margin-bottom: 10px; }
   
   .custom-card-text {
-    font-size: 1rem; /* Set a font size for the text */
-    margin-bottom: 5px; /* Add some bottom margin */
-  }
+    font-size: 1rem; 
+    margin-bottom: 5px  }
   
   .custom-card-button {
-    margin-top: 10px; /* Add top margin to the button */
+    margin-top: 10px;
   }
   
